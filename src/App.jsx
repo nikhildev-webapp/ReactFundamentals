@@ -1,14 +1,10 @@
 import './App.css'
-import ColorBox from './components/ColorBox'
-import ToggleMessage from './components/ToggleMessage'
+import GreetingCard from './components/GreetingCard'
 
 function App() {
-  
-
   return (
     <>
-      <ColorBox />
-      <ToggleMessage/>
+     <GreetingCard name='Nikhil' age={18} quote='Welcome to AdultHood' greet='Happy BirthDay'/>
     </>
   )
 }
