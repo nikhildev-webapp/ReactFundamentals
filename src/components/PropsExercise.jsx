@@ -1,8 +1,11 @@
 import React from 'react'
 
-const PropsExercise = () => {
+const PropsExercise = ({name}) => {
   return (
-    <div>PropsExercise</div>
+      <>
+          <h1>PropsExercise</h1>
+          <h2>Hello {name}</h2>
+      </>
   )
 }
 

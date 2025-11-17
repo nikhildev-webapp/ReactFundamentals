@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       
-      <PropsExercise/>
+      <PropsExercise name='Nikhil'/>
     </>
   )
 }
