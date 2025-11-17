@@ -1,4 +1,4 @@
-import React from 'react'
+// Pass your name as a props and display hello ,{name}
 
 const PropsExercise = ({name}) => {
   return (
