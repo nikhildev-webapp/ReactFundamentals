@@ -1,11 +1,10 @@
 import './App.css'
-import GreetingCard from './components/GreetingCard'
-import RandomQuote from './components/RandomQuote'
+import Todo from './components/Todo'
 
 function App() {
   return (
     <>
-     <RandomQuote/>
+        <Todo/>    
     </>
   )
 }
