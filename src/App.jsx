@@ -1,13 +1,14 @@
 import './App.css'
-import Counter from './components/Counter'
-import PropsExercise from './components/PropsExercise'
+import ColorBox from './components/ColorBox'
+import ToggleMessage from './components/ToggleMessage'
 
 function App() {
   
 
   return (
     <>
-      <Counter/> 
+      <ColorBox />
+      <ToggleMessage/>
     </>
   )
 }
