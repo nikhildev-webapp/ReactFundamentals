@@ -1,5 +1,4 @@
 import './App.css'
-import BasicJSX from './components/BasicJSX'
 import PropsExercise from './components/PropsExercise'
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <>
-      <BasicJSX />
+      
       <PropsExercise/>
     </>
   )
