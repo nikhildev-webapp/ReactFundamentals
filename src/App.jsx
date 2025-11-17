@@ -1,10 +1,12 @@
 import './App.css'
-import Todo from './components/Todo'
+import ConditionGreeting from './components/ConditionGreeting'
+import UserList from './components/UserList'
 
 function App() {
   return (
     <>
-        <Todo/>    
+      <UserList />
+      <ConditionGreeting/>
     </>
   )
 }
