@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter'
 import PropsExercise from './components/PropsExercise'
 
 function App() {
@@ -6,8 +7,7 @@ function App() {
 
   return (
     <>
-      
-      <PropsExercise name='Nikhil'/>
+      <Counter/> 
     </>
   )
 }
