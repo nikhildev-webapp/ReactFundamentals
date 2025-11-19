@@ -57,3 +57,49 @@
 #alert {
   color: red;
 }
+
+/* faq-accordion styling */
+.accordion-container{
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.accordion-item{
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child{
+  border-bottom: none;
+}
+
+.accordion-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #f9f9ff;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.accordion-title:hover{
+  background-color: #f1f1f1;
+}
+
+.accordion-content{
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  }
+
+  .accordion-item:not(.isOpen) .accordion-content{
+    max-height: 0;
+  }
