@@ -11,6 +11,7 @@ const ClickCounter = () => {
           <h1>Count the Button How many time clicked</h1>
           <h4>Button clicked {count}times</h4>
           <button onClick={buttonClicked}>ClikcMe</button>
+          <button onClick={()=>{setCount(0)}}>reset</button>
       </>
   )
 }
