@@ -16,6 +16,7 @@
   padding: 20px;
   text-align: center;
   background-color: #ddd;
+  overflow: hidden;
 }
 
 .userIcon {
