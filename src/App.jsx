@@ -1,4 +1,5 @@
 import './App.css'
+import AutoCounter from './components/AutoCounter'
 import ExerciseComponent from './components/ExerciseComponent'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <>
       <ExerciseComponent />
       {/* Add your exercise component here⬇️*/}
-
+      <AutoCounter/>
     </>
   )
 }
