@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const AutoCounter = () => {
     const [count, setCount] = useState(0);
-    setInterval(() => {
-       setCount(count+1) 
-    },1000);
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCount(prevCount=>prevCount+1)
+        }, 1000)
+        return ()=>clearInterval(intervalId)
+    },[])
   return (
       <>
           <h1>AutoCounter</h1>
