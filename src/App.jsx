@@ -10,7 +10,7 @@ function App() {
     <>
       <ExerciseComponent />
       {/* Add your exercise component here⬇️*/}
-      <LoginForm/>
+     
     </>
   )
 }
