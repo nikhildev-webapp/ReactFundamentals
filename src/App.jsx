@@ -5,9 +5,9 @@ import ExerciseComponent from './components/ExerciseComponent'
 function App() {
   return (
     <>
-      {/* <ExerciseComponent /> */}
+      <ExerciseComponent />
       {/* Add your exercise component here⬇️*/}
-      <Contact/>
+      
     </>
   )
 }
