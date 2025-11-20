@@ -24,24 +24,24 @@ const Contact = () => {
                   </div>
                   <div className="inputContainer">
                       <label htmlFor="Name">Name</label><br />
-                      <input type="text" id='Name' value={name} placeholder='Your Name' onChange={(event)=>{setName(event.target.value)}}/>
+                      <input type="text" required id='Name' value={name} placeholder='Your Name' onChange={(event)=>{setName(event.target.value)}}/>
                   </div>
                    <div className="inputContainer">
                       <label htmlFor="service">Service you need</label><br />
-                      <select name="services" id="service" value={service} onChange={(event)=>{setService(event.target.value)}}>
+                      <select name="services" required id="service" value={service} onChange={(event)=>{setService(event.target.value)}}>
                           <option value="select">Select</option>
-                          <option value="WebDevelopment">WebDevelopment</option>
-                          <option value="MobileDevelopment">AppDevelopment</option>
-                          <option value="DigitalMarketing">DigitalMarketing</option>
+                          <option  required value="WebDevelopment">WebDevelopment</option>
+                          <option required value="MobileDevelopment">AppDevelopment</option>
+                          <option required value="DigitalMarketing">DigitalMarketing</option>
                       </select>
                   </div>
                   <div className="inputContainer">
                       <label htmlFor="budget">What budget do you have <br />available</label><br />
-                      <input type="text" id='budget' placeholder='Enter You Budget' value={budget} onChange={(event)=>{setBudget(event.target.value)}}/>
+                      <input type="text" id='budget' required placeholder='Enter You Budget' value={budget} onChange={(event)=>{setBudget(event.target.value)}}/>
                   </div>
                   <div className="inputContainer">
                       <label htmlFor="projectDescription">Message</label><br />
-                      <textarea  rows={5} type="text" id='projectDescription' placeholder='Please tell us about you project and what you need' value={message} onChange={(event)=>{setMeesage(event.target.value)}}/>
+                      <textarea  rows={5} type="text" id='projectDescription' required placeholder='Please tell us about you project and what you need' value={message} onChange={(event)=>{setMeesage(event.target.value)}}/>
                   </div>
                   <button>Send</button>
               </form>
