@@ -86,6 +86,11 @@ textarea{
    z-index: 1;
 }
 
+.contactImg img{
+    border-radius: 18px;
+    background: none;
+
+}
 button{
     background-color: whitesmoke;
     color: black;
