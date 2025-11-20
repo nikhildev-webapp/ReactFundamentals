@@ -5,9 +5,11 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  background-color: black;
-  color: white;
-  border-color: grey;
+  background-color: rgb(60, 58, 58);
+  color:#ddd;
+  /* border-color: grey; */
+  z-index: 1;
+  overflow:hidden;
 }
 
 .card {
@@ -19,7 +21,7 @@
   padding: 20px;
   text-align: center;
   background-color: #ddd;
-  overflow: hidden;
+ 
 }
 
 .userIcon {
