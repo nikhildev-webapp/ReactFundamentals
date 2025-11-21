@@ -41,15 +41,10 @@ const RandomJoke = () => {
         <>
             <h1>Random Joke Generator</h1>
             {/* Display the specific parts of the joke object */}
-            {joke.setup && joke.punchline ? (
-                <div>
-                    <p><strong>Setup:</strong> {joke.setup}</p>
-                    <p><strong>Punchline:</strong> {joke.punchline}</p>
-                </div>
-            ) : (
-                // Initial state rendering before the first fetch completes
-                <p>Click the button to load a joke.</p>
-            )}
+            {<div>
+                <p>setup:{joke.setup}</p>
+                <p>Punchline:{joke.punchline}</p>
+            </div>}
             {/* Call fetchJoke when the button is clicked */}
             <button onClick={fetchJoke}>Get New Joke</button>
         </>
