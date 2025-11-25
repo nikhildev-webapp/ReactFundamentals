@@ -1,3 +1,4 @@
+import RandomDogImage from './API/RandomDogImage'
 import './App.css'
 import ExerciseComponent from './components/ExerciseComponent'
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <ExerciseComponent />
       {/* Add your exercise component here⬇️*/}
-      
+      <RandomDogImage/>
     </>
   )
 }
