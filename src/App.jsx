@@ -2,6 +2,7 @@ import { useState } from 'react'
 import RandomDogImage from './API/RandomDogImage'
 import './App.css'
 import ExerciseComponent from './components/ExerciseComponent'
+import Users from './API/Users';
 const styles = {
   container: {
     textAlign: "center",
@@ -32,6 +33,7 @@ function App() {
         <RandomDogImage reloadDog={reloadDog}/>
         <button onClick={handleClick} style={styles.button}>GetNewDog</button>
       </div> */}
+      <Users/>
     </>
   )
 }
