@@ -4,6 +4,7 @@ import './App.css'
 import ExerciseComponent from './components/ExerciseComponent'
 import Users from './API/Users';
 import ProductList from './Product/ProductList';
+import RecipeList from './RecipeCard/RecipeList';
 const styles = {
   container: {
     textAlign: "center",
@@ -29,7 +30,7 @@ function App() {
   // const handleClick = () => {
   //   setReloadDog((prev)=>!prev)
   // }
-  
+
   return (
     <>
       <ExerciseComponent />
@@ -45,6 +46,7 @@ function App() {
         <h1 style={styles.headin}>ProductCard-List</h1>
         <ProductList/>
      </div> */}
+      <RecipeList/>
     </>
   )
 }
