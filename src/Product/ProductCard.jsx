@@ -37,10 +37,8 @@ const ProductCard = ({ title, price, image }) => {
   return (
     <div style={styles.card}>
       <img src={image} alt={title} style={styles.image} />
-
       <h2 style={styles.title}>{title}</h2>
       <p style={styles.price}>{price}</p>
-
       <button style={styles.button}>Add to Cart</button>
     </div>
   )
