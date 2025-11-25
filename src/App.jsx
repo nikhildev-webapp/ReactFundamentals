@@ -17,19 +17,21 @@ const styles = {
 };
 
 function App() {
-  const [reloadDog, setReloadDog] = useState(false);
-  const handleClick = () => {
-    setReloadDog((prev)=>!prev)
-  }
+  //*⬇️ is used for fetch random dog image
+  // const [reloadDog, setReloadDog] = useState(false);
+  // const handleClick = () => {
+  //   setReloadDog((prev)=>!prev)
+  // }
   return (
     <>
       <ExerciseComponent />
       {/* Add your exercise component here⬇️*/}
-      <div style={styles.container}>
+      {/* ⬇️RandomDog Image fetch*/}
+      {/* <div style={styles.container}>
         <h1>Random Dog Image</h1>
         <RandomDogImage reloadDog={reloadDog}/>
         <button onClick={handleClick} style={styles.button}>GetNewDog</button>
-      </div>
+      </div> */}
     </>
   )
 }
