@@ -46,7 +46,7 @@ function App() {
         <h1 style={styles.headin}>ProductCard-List</h1>
         <ProductList/>
      </div> */}
-      <RecipeList/>
+    
     </>
   )
 }
