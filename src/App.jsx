@@ -3,6 +3,7 @@ import RandomDogImage from './API/RandomDogImage'
 import './App.css'
 import ExerciseComponent from './components/ExerciseComponent'
 import Users from './API/Users';
+import ProductList from './Product/ProductList';
 const styles = {
   container: {
     textAlign: "center",
@@ -15,6 +16,11 @@ const styles = {
     fontSize: "16px",
     cursor: "pointer",
   },
+  headin: {
+    textAlign: 'center',
+    marginTop: '20px',
+    fontFamily:'Arial'
+  }
 };
 
 function App() {
@@ -33,7 +39,10 @@ function App() {
         <RandomDogImage reloadDog={reloadDog}/>
         <button onClick={handleClick} style={styles.button}>GetNewDog</button>
       </div> */}
-     
+      <div>
+        <h1 style={styles.headin}>ProductCard-List</h1>
+        <ProductList/>
+     </div>
     </>
   )
 }
