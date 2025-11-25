@@ -33,7 +33,7 @@ function App() {
         <RandomDogImage reloadDog={reloadDog}/>
         <button onClick={handleClick} style={styles.button}>GetNewDog</button>
       </div> */}
-      <Users/>
+     
     </>
   )
 }
