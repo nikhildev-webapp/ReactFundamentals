@@ -29,6 +29,7 @@ function App() {
   // const handleClick = () => {
   //   setReloadDog((prev)=>!prev)
   // }
+  
   return (
     <>
       <ExerciseComponent />
@@ -39,10 +40,11 @@ function App() {
         <RandomDogImage reloadDog={reloadDog}/>
         <button onClick={handleClick} style={styles.button}>GetNewDog</button>
       </div> */}
-      <div>
+      {/* ⬇️reusable productcard */}
+      {/* <div>
         <h1 style={styles.headin}>ProductCard-List</h1>
         <ProductList/>
-     </div>
+     </div> */}
     </>
   )
 }
